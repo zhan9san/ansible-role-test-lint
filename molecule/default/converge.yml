@@ -1,0 +1,10 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include zhan9san.test"
+      ansible.builtin.include_role:
+        name: "zhan9san.test"
+    - name: "Include zhan9san.ansible_role_test_lint"
+      ansible.builtin.include_role:
+        name: "zhan9san.ansible_role_test_lint"

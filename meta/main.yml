@@ -1,0 +1,14 @@
+galaxy_info:
+  author: zhan9san
+  namespace: zhan9san
+  role_name: ansible_role_test_lint
+  description: test
+  company: test
+  license: MIT
+  min_ansible_version: 2.1
+  platforms:
+    - name: Fedora
+      versions:
+        - all
+  galaxy_tags: []
+dependencies: []
